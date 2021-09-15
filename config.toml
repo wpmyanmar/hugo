@@ -12,7 +12,7 @@ paginate = 5
   defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # Show reading time in minutes for posts
   showReadingTime = false
@@ -27,10 +27,10 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
-    copyright = ""
+    title = "WPMMC"
+    subtitle = "by ZOOS.ICU"
+    keywords = "wpmmc zoos.icu"
+    copyright = "&copy;2021 WPMMC | All Rights Reserved | Powered by ZOOS.ICU, Hosted on Github, Deployed on Cloudflare Pages and Using Hugo CMS with hello-friend theme."
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -44,7 +44,7 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "wpmmc@zoos.icu:#"
       logoHomeLink = "/"
     # or
     #
@@ -57,6 +57,10 @@ paginate = 5
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "Tutorials"
+        name = "Tutorials"
+        url = "/tutorials"
+      [[languages.en.menu.main]]
+        identifier = "Products"
+        name = "Products"
+        url = "/products"
